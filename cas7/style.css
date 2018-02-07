@@ -1,0 +1,24 @@
+div {
+	width: 500px;
+	height: 500px;
+	float: left;
+}
+
+div#left {
+	background-color: #efefef;
+}
+
+div#right {
+	background-color: #eff7b2;
+}
+
+.clear {
+	clear: both;
+	float: none;
+    width: auto;
+    height: auto;
+}
+
+.hidden {
+	display: none;
+}
