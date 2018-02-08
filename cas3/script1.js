@@ -3,7 +3,7 @@ function calculateZodiac(year) {
 	console.log((year-4) % 12);
 	switch( (year-4) % 12 ) {
 		case 0:
-			return 'Rat'
+			return 'Rat';
 			break;
 		case 1:
 			return 'Ox';

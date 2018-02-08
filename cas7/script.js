@@ -10,14 +10,21 @@ rightDiv.style.display = "none";
 // }
 // a();
 
-function showHide() {
+function showHide(event) {
 	
 }
 
-// function addEventListener(event, funk) {
-// 	funk();
+// function addEventListener(event, funk, flow = false) {
+// 	let event = {
+// 		target: a,
+// 		//..
+// 	}
+// 	funk(event);
 // }
+// let funk = function(){ console.log('sdffd');}
+// funk("sdfsdf");
 
+// btn.addEventListener('click', function(){console.log('sdffd');}  );
 
 btn.addEventListener('click', function(){
 	activeDiv = (activeDiv === 0) ? 1 : 0;

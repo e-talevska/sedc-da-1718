@@ -1,5 +1,5 @@
 console.log("before function definition");
-// let res = 2;
+let res = 2;
 function zbir(a,b = 3) {
 	// console.log(a,b);
 	// let a = 2;
