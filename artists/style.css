@@ -1,0 +1,17 @@
+div#wrapper {
+	width: 70%;
+	margin: 0 auto;
+}
+
+h1 {
+	margin-bottom: 30px;
+}
+
+.half-width {
+	width: 50%;
+	float: left;
+}
+
+#error-message {
+	color: red;
+}
