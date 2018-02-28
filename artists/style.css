@@ -15,3 +15,7 @@ h1 {
 #error-message {
 	color: red;
 }
+
+.clear {
+	clear: both;
+}
